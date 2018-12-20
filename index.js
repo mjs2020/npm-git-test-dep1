@@ -1,7 +1,3 @@
-const package = require('package');
-const dep2 = require('npm-git-test-dep2');
+const pkg = require('./package');
 
-module.exports = {
-    dep1: package,
-    dep2: dep2
-};
+module.exports = pkg;
